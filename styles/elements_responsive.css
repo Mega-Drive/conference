@@ -36,19 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.intro, .calendar
-	{
-		padding-left: 104px;
-		padding-right: 104px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
-	}
+	
 }
 
 /************
@@ -57,12 +45,7 @@
 
 @media only screen and (max-width: 1380px)
 {
-	.intro_item
-	{
-		width: calc((100% - 30px) / 2);
-		background: #f3f7f9;
-		margin-bottom: 48px;
-	}
+	
 }
 
 /************
@@ -80,18 +63,7 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.calendar_item_time
-	{
-		margin-left: 74px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 111px;
-	}
-	.calendar_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
+	
 }
 
 /************
@@ -170,21 +142,30 @@
 		display: block;
 		margin-left: 0;
 	}
-	.intro,
-	.calendar
+	.home
 	{
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	.pricing_col:not(:last-child)
-	{
-		margin-bottom: 30px;
-	}
-	.pricing_item_mid
-	{
-		left: 0px;
-		top: 0px;
 		width: 100%;
+		height: 357px;
+	}
+	.current_page
+	{
+		font-size: 48px;
+	}
+	.tab_text
+	{
+		margin-top: 30px;
+	}
+	.milestone_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.loader_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.icon_box_col
+	{
+		margin-bottom: 60px;
 	}
 	.footer_col:not(:last-child)
 	{
@@ -239,38 +220,7 @@
 
 @media only screen and (max-width: 767px)
 {
-	.home_title
-	{
-		font-size: 36px;
-	}
-	.home_location
-	{
-		font-size: 24px;
-		margin-top: -2px;
-	}
-	.home_buttons
-	{
-		margin-top: 44px;
-	}
-	.intro,
-	.calendar
-	{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.intro_item
-	{
-		width: 100%;
-	}
-	.calendar_item_time
-	{
-		margin-left: 44px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 51px;
-	}
-	.cta_title
+	.current_page
 	{
 		font-size: 36px;
 	}
@@ -341,9 +291,14 @@
 	{
 		text-align: center;
 	}
-	.button
+	.button,
+	.button_3
 	{
 		width: 165px;
+		height: 42px;
+	}
+	.button_2
+	{
 		height: 42px;
 	}
 	.button a
@@ -351,57 +306,56 @@
 		line-height: 42px;
 		font-size: 12px;
 	}
+	.button_2 a
+	{
+		line-height: 42px;
+		font-size: 12px;
+	}
+	.home
+	{
+		height: 217px;
+	}
 	.home_content_container
 	{
-		top: 35%;
+		bottom: 70px;
 	}
-	.intro,
-	.calendar
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.calendar_item
-	{
-		padding-left: 20px;
-	}
-	.calendar_item_image
-	{
-		width: 73px;
-		height: 73px;
-	}
-	.calendar_item_time
-	{
-		margin-left: 25px;
-	}
-	.calendar_item_text
-	{
-		margin-left: 30px;
-	}
-	.calendar_item_time div:first-child
+	.current_page
 	{
 		font-size: 24px;
 	}
-	.calendar_item_time div:last-child
-	{
-		font-size: 13px;
-	}
-	.calendar_item_text div:first-child
-	{
-		font-size: 16px;
-	}
-	.calendar_item_text div:nth-child(2)
+	.breadcrumbs ul li
 	{
 		font-size: 14px;
 	}
-	.calendar_item_text div:last-child
+	.accordion,
+	.accordion_panel p
 	{
 		font-size: 13px;
-		margin-top: 3px;
 	}
-	.cta_title
+	.tab
+	{
+		height: 47px;
+		line-height: 47px;
+		font-size: 13px;
+	}
+	.loader
+	{
+		width: 125px;
+		height: 125px;
+	}
+	.loader strong
 	{
 		font-size: 24px;
+		top: 36px;
+	}
+	.loader span
+	{
+		font-size: 12px;
+		margin-top: 0;
+	}
+	.icon_box_num
+	{
+		font-size: 48px;
 	}
 	.footer_social_list
 	{
@@ -439,30 +393,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.home_date
-	{
-		font-size: 12px;
-	}
-	.home_title
-	{
-		font-size: 24px;
-		margin-top: 3px;
-	}
-	.home_location
-	{
-		font-size: 16px;
-		margin-top: 4px;
-	}
-	.home_text
-	{
-		display: none;
-		font-size: 13px;
-		margin-top: 3px;
-	}
-	.home_buttons
-	{
-		margin-top: 34px;
-	}
+	
 }
 
 /************
